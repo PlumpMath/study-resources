@@ -29,3 +29,6 @@
 
 
 ;;;;
+
+;; Use regexp find float
+(re-find #"[-+]?([0-9]*\.[0-9]+|[0-9]+)" "float value: 0.12")
